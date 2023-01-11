@@ -1,8 +1,7 @@
 .containner__search {
     gap: 10px;
     width: 100%;
-    font-size: 1.5em;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 10px 10px 15px;
     border-radius: 10px;
 
     display: flex;
@@ -11,13 +10,13 @@
 }
 
 .icon__search {
+    font-size: 1.3em;
     color: var(--blue);
 }
 
 .containner__search input {
     width: 100%;
-    padding: 10px;
-    font-size: .9em;
+    padding: 5px;
 
     border: none;
     outline: none;
@@ -26,12 +25,11 @@
 }
 
 input::placeholder {
-    font-size: .9em;
     color: var(--grey);
 }
 
 .containner__search button {
-    padding: 15px 25px;
+    padding: 10px 25px;
     border-radius: 5px;
 
     border: none;

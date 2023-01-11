@@ -15,7 +15,7 @@ const InfoLinks = ({ info }) => {
         <section className='containner__links'>
             <p><IoLocation /> { validateExistData(info.location) }</p>
             <p><BsTwitter /> { validateExistData(info.twitter_username) }</p>
-            <p><ImLink /> { validateExistData(info.url) }</p>
+            <p><ImLink /> { validateExistData(info.html_url) }</p>
             <p><HiBuildingOffice2 /> { validateExistData(info.company) }</p>
         </section>
     );

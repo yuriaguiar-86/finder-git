@@ -23,3 +23,10 @@
 .user__created {
     color: var(--grey);
 }
+
+@media screen and (max-width: 550px) {
+    .user__data {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

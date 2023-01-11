@@ -41,3 +41,17 @@ main {
 main {
   gap: 20px;
 }
+
+@media screen and (max-width: 750px) {
+  header,
+  main {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  header,
+  main {
+    width: 350px;
+  }
+}

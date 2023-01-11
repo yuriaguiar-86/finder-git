@@ -10,11 +10,10 @@
     font-size: 2em;
 }
 
-.containner__title p {
+.containner__title p a {
     gap: 10px;
-    letter-spacing: .2em;
-    
     display: flex;
+    color: var(--white);
     align-items: center;
-    text-transform: uppercase;
+    text-decoration: none;
 }
