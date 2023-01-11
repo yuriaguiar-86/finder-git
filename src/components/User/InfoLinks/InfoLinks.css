@@ -1,0 +1,11 @@
+.containner__links {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.containner__links p {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}

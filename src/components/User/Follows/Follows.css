@@ -1,0 +1,18 @@
+.containner__follows {
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    background: var(--background);
+    justify-content: space-between;
+}
+
+.follows__values {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.follows__values p {
+    color: var(--dark_grey);
+}

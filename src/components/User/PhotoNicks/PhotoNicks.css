@@ -1,0 +1,25 @@
+.user__data {
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.user__data img {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 3px solid var(--grey);
+}
+
+.user__nicks {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user__username {
+    color: var(--blue);
+}
+
+.user__created {
+    color: var(--grey);
+}

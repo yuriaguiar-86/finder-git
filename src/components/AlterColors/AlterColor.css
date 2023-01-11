@@ -1,0 +1,20 @@
+.containner__title {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containner__title h1 {
+    font-size: 2em;
+}
+
+.containner__title p {
+    gap: 10px;
+    letter-spacing: .2em;
+    
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}

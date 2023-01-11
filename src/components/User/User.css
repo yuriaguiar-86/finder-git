@@ -1,0 +1,15 @@
+.containner__user {
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    background: var(--dark_blue);
+}
+
+.user__bio {
+    color: var(--grey);
+}

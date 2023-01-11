@@ -1,0 +1,7 @@
+.containner__error {
+    width: 700px;
+    padding: 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    background: var(--dark_blue);
+}
