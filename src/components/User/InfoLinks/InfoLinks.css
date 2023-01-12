@@ -4,10 +4,16 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.containner__links p {
+.containner__links p,
+.containner__links p a {
     gap: 10px;
     display: flex;
     align-items: center;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
 }
 
 @media screen and (max-width: 750px) {
