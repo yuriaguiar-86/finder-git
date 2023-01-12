@@ -6,13 +6,7 @@ const AlterColors = () => {
     return (
         <section className='containner__title'>
             <h1>devfinder</h1>
-            <p>
-                <a 
-                    href="https://github.com/yuriaguiar-86" 
-                    rel='external, nofollow, noopener'
-                >A. Yuri <MdComputer />
-                </a>
-            </p>
+            <p><a href="https://github.com/yuriaguiar-86" rel='external, nofollow, noopener'>A. Yuri <MdComputer /></a></p>
         </section>
     );
 }
